@@ -9,8 +9,8 @@
 </head>
 
 <body class="bg-[#0e0e10]">
-    <header class="hidden sm:block w-screen fixed">
-        <div class="flex items-center bg-[#18181b] w-full fit-content">
+    <header class="hidden sm:block w-screen">
+        <div class="flex items-center bg-[#18181b] w-full fit-content fixed">
             <div class="h-12 flex items-center">
                 <div class="pl-4">
                     <a href="#">
@@ -114,7 +114,7 @@
                     </svg>
                 </div>
             </div>
-            <div class=flex flex-items-center">
+            <div class="flex flex-items-center">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" class="size-6">
                     <path fill-rule="evenodd" d="M3 5.25a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 5.25Zm0 4.5A.75.75 0 0 1 3.75 9h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 9.75Zm0 4.5a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75a.75.75 0 0 1-.75-.75Zm0 4.5a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75a.75.75 0 0 1-.75-.75Z" clip-rule="evenodd" />
                 </svg>
