@@ -10,8 +10,8 @@
 
 <body class="bg-[#0e0e10] overscroll-none">
     <header class="hidden sm:block w-screen">
-        <div class="flex items-center justify-center fit-content fixed z-20 w-full bg-[#18181b] h-12">
-            <div class="pl-4 flex items-center">
+        <div class="flex items-center justify-between fit-content fixed z-20 w-full bg-[#18181b] h-12">
+            <div class="pl-4 flex items-center justify-start">
                 <a href="#">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white"
                         class="size-6 fill-purple-500 hover:fill-purple-600">
@@ -39,7 +39,7 @@
                 </div>
             </div>
             <!--Here is where I want the content to be centered-->
-            <div class="bg-[#2f2f36] hover:bg-[#35343c] ml-16 mr-16 rounded-l-md flex items-center rounded-r-lg">
+            <div class="bg-[#2f2f36] hover:bg-[#35343c] justify-center rounded-l-md flex items-center rounded-r-lg">
                 <div>
                     <label for="search" class="sr-only">Search</label>
                     <input type="search" name="search" id="search"
@@ -95,7 +95,6 @@
                         </svg>
                     </div>
                 </a>
-            </div>
             <a href="#">
                 <div
                     class="bg-[#2f2f36] hover:bg-[#35343c] flex items-center min-w-44 ml-2 justify-center rounded-md text-white pl-2 pr-2 pt-1 pb-1">
@@ -117,6 +116,7 @@
                             clip-rule="evenodd" />
                     </svg>
                 </a>
+            </div>
             </div>
         </div>
     </header>
