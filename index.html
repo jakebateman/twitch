@@ -11,7 +11,7 @@
 
 <body class="bg-[#0e0e10] overscroll-none">
     <header class="hidden sm:block w-screen">
-        <div class="flex items-center justify-between fit-content fixed z-20 w-full bg-[#18181b] h-12">
+        <div class="flex justify-between fixed z-20 w-full bg-[#18181b] h-fit p-2">
             <div class="pl-4 flex items-center justify-start">
                 <a href="#">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white"
@@ -21,8 +21,8 @@
                             clip-rule="evenodd" />
                     </svg>
                 </a>
-                <div class="pl-8 text-lg">
-                    <nav class="flex flex-items-center gap-10">
+                <div class="flex items-center pl-8 text-lg">
+                    <nav class="flex gap-10">
                         <div class="font-semibold text-white hover:text-purple-500"><a href="#">Following</a></div>
                         <div class="font-semibold text-white  hover:text-purple-500"><a href="#">Browse</a></div>
                         <div class="font-semibold text-white  hover:text-purple-500 w-32"><a href="#">Discover Luna</a>
@@ -39,8 +39,7 @@
                     </nav>
                 </div>
             </div>
-            <!--Here is where I want the content to be centered-->
-            <div class="bg-[#2f2f36] hover:bg-[#35343c] justify-center rounded-l-md flex items-center rounded-r-lg">
+            <div class="flex items-center justify-center bg-[#2f2f36] hover:bg-[#35343c] rounded-l-md rounded-r-lg">
                 <div>
                     <label for="search" class="sr-only">Search</label>
                     <input type="search" name="search" id="search"
@@ -57,7 +56,6 @@
                     </div>
                 </a>
             </div>
-            <!--Here is where I want the entering to stop-->
             <div class="flex items-center justify-end">
                 <a href="#">
                     <div class="hover:bg-[#35343c] hover:rounded-md pt-2 pb-2 pl-2 pr-2">
@@ -825,3 +823,4 @@
             </div>
         </div>
     </div>
+    
